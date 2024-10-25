@@ -1,2 +1,32 @@
 # Arduino_Sequencer
-This eurorack sequencer uses an Arduino Pro Micro, MCP4822 DAC, rotary encoder, and a 128x32 OLED. It outputs control voltages to be used externally with external modules.
+LIBRARY DEPENDENCIES USED:
+#include <SPI.h>
+#include <Wire.h>
+#include <Adafruit_GFX.h>
+#include <Adafruit_SSD1306.h>
+#include <Encoder.h>
+
+ARDUINO PIN CONNECTIONS:
+PIN 00 -> ROTARY ENCODER A
+PIN 01 -> ROTARY ENCODER B
+PIN 02 -> OLED SDA
+PIN 03 -> OLED SCL
+PIN 04 -> TACTILE BUTTON A
+PIN 05 -> TACTILE BUTTON B
+PIN 06 -> XXX
+PIN 07 -> XXX
+PIN 08 -> XXX
+PIN 09 -> SQUAREWAVE OUTPUT
+PIN 10 -> XXX
+PIN 11 -> XXX
+PIN 12 -> XXX
+PIN 13 -> XXX
+PIN 14 -> XXX
+PIN 15 -> DAC CLOCK IN
+PIN 16 -> DAC DATA IN
+PIN 17 -> XXX
+PIN 18 -> XXX
+PIN 19 -> XXX
+PIN 20 -> XXX
+PIN 21 -> XXX
+
